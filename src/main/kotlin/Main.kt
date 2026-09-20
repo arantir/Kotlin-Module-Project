@@ -1,3 +1,7 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+
+fun main() {
+    //Хранилище всех архивов в памяти на время работы программы
+    val archives: MutableList<Archive> = mutableListOf()
+    //Запускаем главный экран выбора архива
+    archiveMenu(archives)
 }
