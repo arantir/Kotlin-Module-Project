@@ -1,0 +1,5 @@
+#Компиляция
+cd ~/prj/android/Kotlin-Module-Project && kotlinc src/main/kotlin/*.kt -include-runtime -d app.jar
+
+#Запуск
+cd ~/prj/android/Kotlin-Module-Project && java -jar app.jar
